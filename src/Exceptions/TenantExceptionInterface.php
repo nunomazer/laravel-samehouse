@@ -1,6 +1,6 @@
 <?php
 
-namespace HipsterJazzbo\Landlord\Exceptions;
+namespace Torzer\Awesome\Landlord\Exceptions;
 
 interface TenantExceptionInterface
 {
