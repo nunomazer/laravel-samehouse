@@ -11,7 +11,7 @@
     "authors": [
         {
             "name": "Ademir Mazer Jr",
-            "email": "ademir.mazer.jr@gmail.com"
+            "email": "ademir.mazer.jr@torzer.com"
         },
         {
             "name": "Caleb Fidecaro",
@@ -29,16 +29,16 @@
     },
     "autoload": {
         "psr-4": {
-            "HipsterJazzbo\\Landlord\\": "src/"
+            "Torzer\\Awesome\\Landlord\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HipsterJazzbo\\Landlord\\LandlordServiceProvider"
+                "Torzer\\Awesome\\LandlordServiceProvider"
             ],
             "aliases": {
-                "Landlord": "HipsterJazzbo\\Landlord\\Facades\\Landlord"
+                "Landlord": "Torzer\\Awesome\\Facades\\Landlord"
             }
         }
     }
