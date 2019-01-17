@@ -1,9 +1,9 @@
 <?php
 
-namespace HipsterJazzbo\Landlord;
+namespace Torzer\Awesome\Landlord;
 
-use HipsterJazzbo\Landlord\Exceptions\TenantColumnUnknownException;
-use HipsterJazzbo\Landlord\Exceptions\TenantNullIdException;
+use Torzer\Awesome\Landlord\Exceptions\TenantColumnUnknownException;
+use Torzer\Awesome\Landlord\Exceptions\TenantNullIdException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
