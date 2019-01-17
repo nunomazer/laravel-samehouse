@@ -17,7 +17,7 @@ Add the ServiceProvider in `config/app.php`:
 ```php
     'providers' => [
         ...
-        HipsterJazzbo\Landlord\LandlordServiceProvider::class,
+        Torzer\Awesome\Landlord\LandlordServiceProvider::class,
     ],
 ```
 
@@ -26,14 +26,14 @@ Register the Facade if you’d like:
 ```php
     'aliases' => [
         ...
-        'Landlord'   => HipsterJazzbo\Landlord\Facades\Landlord::class,
+        'Landlord'   => Torzer\Awesome\Landlord\Facades\Landlord::class,
     ],
 ```
 
 You could also publish the config file:
 
 ```bash
-php artisan vendor:publish --provider="HipsterJazzbo\Landlord\LandlordServiceProvider"
+php artisan vendor:publish --provider="Torzer\Awesome\Landlord\LandlordServiceProvider"
 ```
 
 and set your `default_tenant_columns` setting, if you have an app-wide default. LandLord will use this setting to scope models that don’t have a `$tenantColumns` property set.
@@ -43,7 +43,7 @@ and set your `default_tenant_columns` setting, if you have an app-wide default. 
 You'll need to set the service provider in your `bootstrap/app.php`:
 
 ```php
-$app->register(HipsterJazzbo\Landlord\LandlordServiceProvider::class);
+$app->register(Torzer\Awesome\Landlord\LandlordServiceProvider::class);
 ```
 
 And make sure you've un-commented `$app->withEloquent()`.
@@ -112,7 +112,7 @@ To set up a model to be scoped automatically, simply use the `BelongsToTenants` 
 ```php
 
 use Illuminate\Database\Eloquent\Model;
-use HipsterJazzbo\Landlord\BelongsToTenants;
+use Torzer\Awesome\Landlord\BelongsToTenants;
 
 class ExampleModel extends Model
 {
@@ -125,7 +125,7 @@ If you’d like to override the tenants that apply to a particular model, you ca
 ```php
 
 use Illuminate\Database\Eloquent\Model;
-use HipsterJazzbo\Landlord\BelongsToTenants;
+use Torzer\Awesome\Landlord\BelongsToTenants;
 
 class ExampleModel extends Model
 {
