@@ -1,5 +1,6 @@
 The MIT License (MIT)
 
+Copyright (c) 2019 torzer.com
 Copyright (c) 2016 Caleb Fidecaro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
