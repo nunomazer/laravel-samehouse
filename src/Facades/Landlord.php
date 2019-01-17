@@ -1,8 +1,8 @@
 <?php
 
-namespace HipsterJazzbo\Landlord\Facades;
+namespace Torzer\Awesome\Landlord\Facades;
 
-use HipsterJazzbo\Landlord\TenantManager;
+use Torzer\Awesome\Landlord\TenantManager;
 use Illuminate\Support\Facades\Facade;
 
 class Landlord extends Facade
