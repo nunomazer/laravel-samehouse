@@ -35,10 +35,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Torzer\\Awesome\\LandlordServiceProvider"
+                "Torzer\\Awesome\\Landlord\\LandlordServiceProvider"
             ],
             "aliases": {
-                "Landlord": "Torzer\\Awesome\\Facades\\Landlord"
+                "Landlord": "Torzer\\Awesome\\Landlord\\Facades\\Landlord"
             }
         }
     }
