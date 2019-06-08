@@ -1,6 +1,8 @@
 # Change log
 
-All notable changes to this project will be documented in this file.
+PLEASE - SEE THE RELEASES PAGE - https://github.com/torzer/awesome-landlord/releases, since it have all the tracking of changes each version has for this package.
+
+
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
