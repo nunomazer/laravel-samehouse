@@ -174,6 +174,32 @@ Under the hood, Landlord uses Laravel's [anonymous global scopes](https://larave
 ExampleModel::withoutGlobalScope('tenant_id')->get();
 ```
 
+### Disabling Tenant
+
+If you need to disable Tenant management, call disable method:
+
+```php
+Landlord::disable();
+```
+
+To enable it again:
+
+```php
+Landlord::enable();
+```
+
+Any time you need to check if tenant is enabled, use isEnabled method:
+
+```php
+if (Landlord::isEnabled()) {
+    // disable to execute admin tasks
+    Landlord::disable();
+    ...
+    // enable again
+    Landlord::enable();
+}
+
+```
 
 ## Contributing
 
