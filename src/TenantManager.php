@@ -57,6 +57,16 @@ class TenantManager
         $this->enabled = false;
     }
 
+     /**
+     * Check if the tenant management is enabled
+     * 
+     * @return bool
+     */
+    public function isEnabled() : bool
+    {
+        return $this->enabled;
+    }
+    
     /**
      * Add a tenant to scope by.
      *
