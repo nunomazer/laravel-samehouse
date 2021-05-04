@@ -1,8 +1,8 @@
 <?php
 
-namespace Torzer\Awesome\Landlord\Facades;
+namespace NunoMazer\Samehouse\Facades;
 
-use Torzer\Awesome\Landlord\TenantManager;
+use NunoMazer\Samehouse\TenantManager;
 use Illuminate\Support\Facades\Facade;
 
 class Landlord extends Facade
