@@ -1,8 +1,8 @@
 <?php
 
-use Torzer\Awesome\Landlord\BelongsToTenants;
-use Torzer\Awesome\Landlord\Facades\Landlord;
-use Torzer\Awesome\Landlord\TenantManager;
+use NunoMazer\Samehouse\BelongsToTenants;
+use NunoMazer\Samehouse\Facades\Landlord;
+use NunoMazer\Samehouse\TenantManager;
 use Illuminate\Database\Eloquent\Model;
 use PHPUnit\Framework\TestCase;
 
