@@ -1,6 +1,6 @@
 <?php
 
-namespace NunoMazer\Samehouse\Landlord\Exceptions;
+namespace NunoMazer\Samehouse\Exceptions;
 
 use Exception;
 
