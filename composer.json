@@ -1,12 +1,13 @@
 {
-    "name": "torzer/awesome-landlord",
+    "name": "nunomazer/laravel-samehouse",
     "description": "A simple, single database multi-tenancy solution for Laravel 5.2+",
     "license": "MIT",
     "keywords": [
         "tenant",
         "tenancy",
         "multitenant",
-        "multitenancy"
+        "multitenancy",
+        "landlord"
     ],
     "authors": [
         {
@@ -29,16 +30,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Torzer\\Awesome\\Landlord\\": "src/"
+            "NunoMazer\\Samehouse\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Torzer\\Awesome\\Landlord\\LandlordServiceProvider"
+                "NunoMazer\\Samehouse\\LandlordServiceProvider"
             ],
             "aliases": {
-                "Landlord": "Torzer\\Awesome\\Landlord\\Facades\\Landlord"
+                "Landlord": "NunoMazer\\Samehouse\\Facades\\Landlord"
             }
         }
     }
