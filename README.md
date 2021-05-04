@@ -2,12 +2,14 @@
 
 A single database multi-tenancy package for Laravel & Lumen 5.2+.
 
+_NOTE: this package is based on HipsterJazzbo/Landlord and Torzer/awesome-landlord._
+
 ## Installation
 
 To get started, require this package:
 
 ```bash
-composer require torzer/awesome-landlord
+composer require nunomazer/laravel-samehouse
 ```
 
 ### Laravel
@@ -17,7 +19,7 @@ Add the ServiceProvider in `config/app.php`:
 ```php
     'providers' => [
         ...
-        Torzer\Awesome\Landlord\LandlordServiceProvider::class,
+        NunoMazer\Samehouse\LandlordServiceProvider::class,
     ],
 ```
 
@@ -26,14 +28,14 @@ Register the Facade if you’d like:
 ```php
     'aliases' => [
         ...
-        'Landlord'   => Torzer\Awesome\Landlord\Facades\Landlord::class,
+        'Landlord'   => NunoMazer\Samehouse\Facades\Landlord::class,
     ],
 ```
 
 You could also publish the config file:
 
 ```bash
-php artisan vendor:publish --provider="Torzer\Awesome\Landlord\LandlordServiceProvider"
+php artisan vendor:publish --provider="NunoMazer\Samehouse\LandlordServiceProvider"
 ```
 
 and set your `default_tenant_columns` setting, if you have an app-wide default. LandLord will use this setting to scope models that don’t have a `$tenantColumns` property set.
@@ -43,7 +45,7 @@ and set your `default_tenant_columns` setting, if you have an app-wide default. 
 You'll need to set the service provider in your `bootstrap/app.php`:
 
 ```php
-$app->register(Torzer\Awesome\Landlord\LandlordServiceProvider::class);
+$app->register(NunoMazer\Samehouse\LandlordServiceProvider::class);
 ```
 
 And make sure you've un-commented `$app->withEloquent()`.
