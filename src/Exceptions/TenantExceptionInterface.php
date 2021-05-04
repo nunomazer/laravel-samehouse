@@ -1,6 +1,6 @@
 <?php
 
-namespace Torzer\Awesome\Landlord\Exceptions;
+namespace NunoMazer\Samehouse\Exceptions;
 
 interface TenantExceptionInterface
 {
