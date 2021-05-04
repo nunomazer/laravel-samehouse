@@ -92,7 +92,7 @@ namespace App\Http\Middleware;
 
 use App\Models\Company;
 use Closure;
-use Torzer\Awesome\Landlord\Facades\Landlord;
+use NunoMazer\Samehouse\Facades\Landlord;
 
 class GlobalData
 {
@@ -151,7 +151,7 @@ To set up a model to be scoped automatically, simply use the `BelongsToTenants` 
 ```php
 
 use Illuminate\Database\Eloquent\Model;
-use Torzer\Awesome\Landlord\BelongsToTenants;
+use NunoMazer\Samehouse\BelongsToTenants;
 
 class ExampleModel extends Model
 {
@@ -164,7 +164,7 @@ If you’d like to override the tenants that apply to a particular model, you ca
 ```php
 
 use Illuminate\Database\Eloquent\Model;
-use Torzer\Awesome\Landlord\BelongsToTenants;
+use NunoMazer\Samehouse\BelongsToTenants;
 
 class ExampleModel extends Model
 {
