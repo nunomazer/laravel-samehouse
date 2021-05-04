@@ -1,8 +1,8 @@
 <?php
 
-namespace Torzer\Awesome\Landlord;
+namespace NunoMazer\Samehouse;
 
-use Torzer\Awesome\Landlord\Exceptions\ModelNotFoundForTenantException;
+use NunoMazer\Samehouse\Exceptions\ModelNotFoundForTenantException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
@@ -41,7 +41,7 @@ trait BelongsToTenants
      */
     public function getTenantColumns()
     {
-        return isset($this->tenantColumns) ? $this->tenantColumns : config('landlord.default_tenant_columns');
+        return isset($this->tenantColumns) ? $this->tenantColumns : config('samehouse.default_tenant_columns');
     }
 
     /**
