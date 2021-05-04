@@ -1,9 +1,9 @@
 <?php
 
-namespace Torzer\Awesome\Landlord;
+namespace NunoMazer\Samehouse;
 
-use Torzer\Awesome\Landlord\Exceptions\TenantColumnUnknownException;
-use Torzer\Awesome\Landlord\Exceptions\TenantNullIdException;
+use NunoMazer\Samehouse\Exceptions\TenantColumnUnknownException;
+use NunoMazer\Samehouse\Exceptions\TenantNullIdException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
