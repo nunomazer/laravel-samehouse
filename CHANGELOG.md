@@ -1,6 +1,6 @@
 # Change log
 
-PLEASE - SEE THE RELEASES PAGE - https://github.com/torzer/awesome-landlord/releases, since it have all the tracking of changes each version has for this package.
+PLEASE - SEE THE RELEASES PAGE - https://github.com/nunomazer/laravel-samehouse/releases, since it have all the tracking of changes each version has for this package.
 
 
 
