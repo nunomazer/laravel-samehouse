@@ -1,6 +1,6 @@
 {
     "name": "nunomazer/laravel-samehouse",
-    "description": "A multi-tenant Laravel package, based on single database, simple and straight to use",
+    "description": "A multi-tenant Laravel package, based on single database, simple and ease to use",
     "license": "MIT",
     "keywords": [
         "tenant",
