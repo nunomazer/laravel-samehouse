@@ -30,7 +30,7 @@
     },
     "replace": {
         "nunomazer/laravel-samehouse": "^1.0",
-    }
+    },
     "autoload": {
         "psr-4": {
             "NunoMazer\\Samehouse\\": "src/"
