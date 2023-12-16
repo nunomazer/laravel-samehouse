@@ -91,7 +91,15 @@ If you pass a Model instance, Landlord will use Eloquent’s `getForeignKey()` m
 
 You can add as many tenants as you need to, however Landlord will only allow **one** of each type of tenant at a time.
 
-Following is a sample middleware to implement the process of setting tenant on every request:
+Following is a sample middleware to implement the process of setting tenant on every request.
+
+First create the class:
+
+```bash
+php artisan make:middleware SetTenant
+```
+
+Then, code it to set the tenant id for authenticated user, you can user the following example:
 
 
 ```php
