@@ -133,6 +133,8 @@ class SetTenant
 }
 ```
 
+> Don´t forget to add the middleware to desired middleware stack in `app/Http/Midleware/Kernel.http`
+
 
 **Removing a tenant** 
 
