@@ -103,7 +103,7 @@ use App\Models\Company;
 use Closure;
 use NunoMazer\Samehouse\Facades\Landlord;
 
-class GlobalData
+class SetTenant
 {
     /**
      * Handle an incoming request.
