@@ -7,7 +7,7 @@
 
 _for Laravel & Lumen 5.2+_
 
-A single database multi-tenancy package for Laravel & Lumen 5.2+.
+A single database multi-tenancy package for Laravel & Lumen version 5.2 - version 11.
 
 _NOTE: this package is based on HipsterJazzbo/Landlord and Torzer/awesome-landlord._
 _This version is a fork from https://github.com/torzer/awesome-landlord that was archived._
