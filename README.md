@@ -67,7 +67,7 @@ For example, you might have a `companies` table, and a bunch of other tables tha
 
 ### Adding and Removing Tenants
 
-> **IMPORTANT NOTE:** Landlord is stateless. This means that when you call `addTenant()`, it will only scope the *current request*.
+> **IMPORTANT NOTE:** Laravel Samehouse is stateless. This means that when you call `addTenant()`, it will only scope the *current request*.
 > 
 > Make sure that you are adding your tenants in such a way that it happens on every request, and before you need Models scoped, like in a middleware or as part of a stateless authentication method like OAuth.
 
