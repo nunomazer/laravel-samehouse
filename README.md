@@ -1,5 +1,4 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nunomazer/laravel-samehouse.svg?style=flat-square)](https://packagist.org/packages/nunomazer/laravel-samehouse)
-[![Build Status](https://img.shields.io/travis/nunomazer/laravel-samehouse/master.svg?style=flat-square)](https://travis-ci.org/nunomazer/laravel-samehouse)
 [![Total Downloads](https://img.shields.io/packagist/dt/nunomazer/laravel-samehouse.svg?style=flat-square)](https://packagist.org/packages/nunomazer/laravel-samehouse)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
@@ -7,7 +6,7 @@
 
 _for Laravel & Lumen 5.2+_
 
-A single database multi-tenancy package for Laravel & Lumen version 5.2 - version 11.
+A single database multi-tenancy package for Laravel & Lumen version 5.2.
 
 _NOTE: this package is based on HipsterJazzbo/Landlord and Torzer/awesome-landlord._
 _This version is a fork from https://github.com/torzer/awesome-landlord that was archived._
