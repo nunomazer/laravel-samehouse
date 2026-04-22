@@ -4,9 +4,9 @@
 
 # laravel-samehouse
 
-_for Laravel (until v13) & Lumen 5.2+_ 
+_for Laravel & Lumen 5.2+_ 
 
-A single database multi-tenancy package for Laravel (v9 - v13) & Lumen version 5.2.
+A single database multi-tenancy package for Laravel (5.2 -13.x) & Lumen version 5.2.
 
 _NOTE: this package is based on HipsterJazzbo/Landlord and Torzer/awesome-landlord._
 _This version is a fork from https://github.com/torzer/awesome-landlord that was archived._
