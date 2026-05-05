@@ -25,8 +25,15 @@ trait BelongsToTenants
         // Grab our singleton from the container
         static::$landlord = app(TenantManager::class);
 
-        // Add a global scope for each tenant this model should be scoped by.
-        static::$landlord->applyTenantScopes(new static());
+        if (method_exists(static::class, 'whenBooted')) {
+            static::whenBooted(function () {
+                // Add a global scope for each tenant this model should be scoped by.
+                static::$landlord->applyTenantScopes(new static());
+            });
+        } else {
+            // Add a global scope for each tenant this model should be scoped by.
+            static::$landlord->applyTenantScopes(new static());
+        }
 
         // Add tenantColumns automatically when creating models
         static::creating(function (Model $model) {
